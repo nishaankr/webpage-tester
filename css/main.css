@@ -1,3 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  align-content: center;
+}
+
+body {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin: 2em;
+  padding: auto;
+}
+
+.header {
+  width: max-content;
+  height: max-content;
+  float: left;
+  margin: 10px;
+  display: run-in;
+  padding: auto;
+}
+
+.list {
+  width: 400px;
+  height: 150px;
+  float: left;
+  margin: 10px;
+  padding: auto;
+}
+
 .emptySpace {
-  background-color: antiquewhite;
+  background-color: khaki;
+  width: max-content;
+  height: max-content;
+  padding: auto;
+  margin: 10px;
+  padding: auto;
+}
+
+.popup {
+  width: max-content;
+  height: max-content;
+  align-content: center;
+  padding: auto;
+  margin: 10px;
+  padding: auto;
+}
+
+.hidden {
+  display: none;
 }

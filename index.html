@@ -4,35 +4,29 @@
     <title>Tester HTML Page</title>
     <meta name="description" content="Tester Page" />
     <meta name="keywords" content="tutorial template" />
-    <script
-      type="javascript"
-      name="inject"
-      src="H:\GitRepos\webpage-tester\addForms.js"
-    ></script>
+    <script type="javascript" name="inject" src="../inject.js"></script>
+    <link rel="styleSheet" href="../css/main.css" />
   </head>
   <body>
-    <h1>Pages Lists</h1>
-    <ul>
-      <li>Forms</li>
-      <li>
-        <div class="popup">
-          <form class="studentDetails">
-            <div class="name">
-              Name:
-              <input id="name" type="text" placeholder="Enter Your Name here" />
-            </div>
-            <div class="Reason"></div>
-          </form>
-        </div>
-        <div class="emptySpace hidden">
-          <br />
-          <div>
-            Are you sure you want to continue:
-            <br />
-            <input id="confirm" type="text" placeholder="Y for Yes, N for No" />
+    <div class="header"><h1>Pages Lists</h1></div>
+    <div class="list">
+      <div class="popup">
+        <form class="studentDetails">
+          <div class="name">
+            Name:
+            <input id="name" type="text" placeholder="Enter Your Name here" />
           </div>
+          <div class="Reason"></div>
+        </form>
+      </div>
+      <div class="emptySpace">
+        <br />
+        <div>
+          Are you sure you want to continue:
+          <br />
+          <input id="confirm" type="text" placeholder="Y for Yes, N for No" />
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   </body>
 </html>
