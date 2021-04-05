@@ -44,6 +44,15 @@ body {
   padding: auto;
 }
 
+.banFunction {
+  background-color: whitesmoke;
+  width: 220px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
 .popup {
   width: max-content;
   height: max-content;
