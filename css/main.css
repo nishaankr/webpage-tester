@@ -46,11 +46,11 @@ body {
 
 .banFunction {
   background-color: whitesmoke;
-  width: 220px;
-  height: 100px;
+  width: auto;
+  height: auto;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 5px;
 }
 
 .popup {
